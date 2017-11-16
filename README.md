@@ -74,12 +74,9 @@ Two ways to use this script:
   
    See [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) for a full example implementing the `import` approach.
    
-The resulting images produced are below in the two color options, with the second option selectable by editing the script [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) further:
+The resulting images produced are below in the two color options, respectively, with the second option selectable by editing the script [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) further to comment off the first option:
 
 ![color_option_1](panel_examples/shep1.png)
-
-Color option 2 (option 1 commented off):
-
 ![color_option_2](panel_examples/shep2.png)
 
 ## Plotting scripts for specific purposes
