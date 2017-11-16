@@ -30,6 +30,8 @@ Two ways to use this script:
      
       # assign your data
       
+      # assign items like `labels`, `colors`, etc.
+      
       ## MAKE PLOT by calling function ####
 
       fig, axes = plt_panel_bar.plot_data(
