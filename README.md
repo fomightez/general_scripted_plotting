@@ -18,6 +18,14 @@ INSERT EXAMPLE COMMAND AND RESULTING PLOT HERE.
 Two ways to use this script:
 - Edit it to contain your data.
 
+  Edit the script via text editor. Somehow assign your data and asign items like `labels`, `colors`, etc.
+  
+  Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`.
+  
+  Excuted the edited script with:
+  
+      python plot_panel_bar_plots_with_fit.py
+
 - (**Recommended way ==>**)Import the function into your own script with your data or your Jupyter notebook with your data.
 
   To do this, place the script `plot_panel_bar_plots_with_fit.py` into a directory with your code or place the script in your Jupyter environment dashboard where the notebook is locaed.
@@ -49,8 +57,9 @@ Two ways to use this script:
       ### END OF PLOT MAKING #####
 
 
-      # save or display returned plot
+      # save or display returned plot in preferend format
       plt.savefig("plot.svg", orientation='landscape') # FOR VECTOR GRAPHICS; useful if merging into Adobe Illustrator.
+      plt.savefig("plot.png") # may be best for development phase as viewable directly in more environments
       plt.show() # <=== Use that when placed in a Jupyter notebook
   
    See [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) for a full example of that approach.
