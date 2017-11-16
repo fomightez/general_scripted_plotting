@@ -14,7 +14,7 @@ This script is my 'hacky' casting of the histogram-generating (actually kernel d
 Originally written to be part of a mini-pipeline, [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines), where I plot read starts at the start of origin promoters mined by [`plot_coverage_and_starts.py`]()  Thus, it was written in a manner to make the core function easily imported elsewhere so that the "data" hard coded in the example can be replaced by real data.
 Stylistically, it seems others have called this a 'panel of bar charts', see [here](http://support.sas.com/documentation/cdl/en/grstatproc/62603/HTML/default/viewer.htm#a003241944.htm) and so my description/name is an effort to acknowledge that.
 
-EXAMPLE OUTPUT:
+**EXAMPLE OUTPUT THAT CAN BE MADE USING THIS SCRIPT:**
 ![From shepherds script that imports this script](panel_examples/shep1.png)
 
 Two ways to use this script:
@@ -24,13 +24,13 @@ Two ways to use this script:
   
   Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`; `svg` vector graphics format is more easily sized and adapted.
   
-  Excute the edited script with:
+  Execute the edited script with:
   
       python plot_panel_bar_plots_with_fit.py
       
   The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into a notebook is included [here in this repo](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb); scroll all the way to the bottom to see ouput. Go [here](https://nbviewer.jupyter.org/github/fomightez/general_scripted_plotting/blob/master/panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb) to see the example notebook rendered nicely.
   
-  The resulting image produced is below:
+  The resulting image produced in that notebook is below:
   
   ![nine_notebook_example](panel_examples/nine_example.png)
   
