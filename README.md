@@ -16,7 +16,7 @@ Stylistically, it seems others have called this a 'panel of bar charts', see [he
 INSERT EXAMPLE COMMAND AND RESULTING PLOT HERE.
 
 Two ways to use this script:
-- Edit it to contain your data.
+- **Edit it to contain your data.**
 
   Edit the script via text editor. Somehow assign your data and asign items like `labels`, `colors`, etc.
   
@@ -26,7 +26,7 @@ Two ways to use this script:
   
       python plot_panel_bar_plots_with_fit.py
 
-- (**Recommended way ==>**)Import the function into your own script with your data or your Jupyter notebook with your data.
+- (**Recommended way ==>**) **Import the function into your own script with your data or your Jupyter notebook with your data.**
 
   To do this, place the script `plot_panel_bar_plots_with_fit.py` into a directory with your code or place the script in your Jupyter environment dashboard where the notebook is locaed.
 
