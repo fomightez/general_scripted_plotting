@@ -27,7 +27,8 @@ Two ways to use this script:
   
       python plot_panel_bar_plots_with_fit.py
       
-  The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into a notebook is included [here](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb).
+  The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into a notebook is included [here](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb).  
+  
   ![color_option_1](panel_examples/shep1.png)
   
   The resulting image produced is below:
@@ -73,7 +74,7 @@ Two ways to use this script:
 The resulting images produced are below in the two color options, with the second option selectable by editing the script [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) further:
 
 ![color_option_1](panel_examples/shep1.png)
-![color_option_1](panel_examples/shep2.png)
+![color_option_2](panel_examples/shep2.png)
 
 ## Plotting scripts for specific purposes
 
