@@ -21,9 +21,9 @@ Two ways to use this script:
 
   Edit the script directly via text editor. Assign your data and asign items like `labels`, `colors`, etc.
   
-  Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`.
+  Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`; `svg` vector graphics format is more easily sized and adapted.
   
-  Excuted the edited script with:
+  Excute the edited script with:
   
       python plot_panel_bar_plots_with_fit.py
 
@@ -63,7 +63,7 @@ Two ways to use this script:
       plt.savefig("plot.png") # may be best for development phase as viewable directly in more environments
       plt.show() # <=== Use that when placed in a Jupyter notebook
   
-   See [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) for a full example of that approach.
+   See [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) for a full example implementing the `import` approach.
 
 ## Plotting scripts for specific purposes
 
