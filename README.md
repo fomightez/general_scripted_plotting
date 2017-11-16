@@ -10,11 +10,41 @@ Descriptions of the scripts are below:
 > plots a ratio of expression values across chromosomes or scaffolds of a genome to highlight regions of deviation characteristic of aneuploidy or segmental duplication/deletion.
 
 A Python script to plot panels of bar graphs with curves fit to the data..  It uses lists of lists of x & y data. Each set of x & y is plotted to a subplot.
-This script is my 'hacky' casting of the histogram-generating (actually kernel density estimate curve plot-generating) code of [joypy](https://github.com/sbebo/joypy) as a less automated, fully-customizable plotter of panels of bar graphs with curves fit to the data. Originally written to be part of a mini-pipeline, [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines), where I plot read starts at the start of origin promoters mined by [`plot_coverage_and_starts.py`]()  Thus, it was written in a manner to make the core function easily imported elsewhere so that the "data" hard coded in the example can be replaced by real data.
+This script is my 'hacky' casting of the histogram-generating (actually kernel density estimate curve plot-generating) code of [joypy](https://github.com/sbebo/joypy) as a less automated, fully-customizable plotter of panels of bar graphs with curves fit to the data. (Also vaguely reminiscent of [Seaborn's example of Overlapping densities (‘joy plot’)](https://seaborn.pydata.org/examples/kde_joyplot.html).) Originally written to be part of a mini-pipeline, [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines), where I plot read starts at the start of origin promoters mined by [`plot_coverage_and_starts.py`]()  Thus, it was written in a manner to make the core function easily imported elsewhere so that the "data" hard coded in the example can be replaced by real data.
 Stylistically, it seems others have called this a 'panel of bar charts', see [here](http://support.sas.com/documentation/cdl/en/grstatproc/62603/HTML/default/viewer.htm#a003241944.htm) and so my description/name is an effort to acknowledge that.
 
 INSERT EXAMPLE COMMAND AND RESULTING PLOT HERE.
 
+Two ways to use this script:
+- Edit it to contain your data.
+
+- (**Recommended way ==>**)Import the function into your own script with your data or your Jupyter notebook with your data.
+
+  To do this, place the script `plot_panel_bar_plots_with_fit.py` into a directory with your code or place the script in your Jupyter environment dashboard where the notebook is locaed.
+
+  Minimal code outline needed for that approach:
+
+      import matplotlib
+      from matplotlib import pyplot as plt
+      import plot_panel_bar_plots_with_fit as plt_panel_bar
+     
+      # assign your data
+      
+      ## MAKE PLOT by calling function ####
+
+      fig, axes = plt_panel_bar.plot_data(
+          data,
+          #settings for options,
+          )
+
+      ### END OF PLOT MAKING #####
+
+
+      # save or display returned plot
+      plt.savefig("plot.svg", orientation='landscape') # FOR VECTOR GRAPHICS; useful if merging into Adobe Illustrator.
+      plt.show() # <=== Use that when placed in a Jupyter notebook
+  
+   See [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines) for a full example of that approach.
 
 ## Plotting scripts for specific purposes
 
