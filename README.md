@@ -29,9 +29,11 @@ Two ways to use this script:
       
   The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into a notebook is included [here](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb).  
   
-  ![color_option_1](panel_examples/nine_example.png)
-  
   The resulting image produced is below:
+  
+  ![nine_notebook_example](panel_examples/nine_example.png)
+  
+  
 
 - (**Recommended way ==>**) **Import the function into your own script with your data or your Jupyter notebook with your data.**
 
