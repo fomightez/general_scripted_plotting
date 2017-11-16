@@ -28,7 +28,7 @@ Two ways to use this script:
   
       python plot_panel_bar_plots_with_fit.py
       
-  The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into [a notebook is included here in this repo](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb); scroll all the way to the bottom to see ouput. Go [here](https://nbviewer.jupyter.org/github/fomightez/general_scripted_plotting/blob/master/panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb) to see the example notebook rendered nicely.
+  The script can also simply be pasted into a cell in a Jupyter notebook and then executed as you would any code in a Jupyter notebook, i.e., type `shift-enter` or press `play` button. An example of an edited script pasted into [a Jupyter notebook is included here in this repo](panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb); scroll all the way to the bottom to see ouput. Go [here](https://nbviewer.jupyter.org/github/fomightez/general_scripted_plotting/blob/master/panel_examples/example_edited_data_for_plot_panel_bar_plots_with_fit.ipynb) to see the example Jupyter notebook rendered nicely.
   
   The resulting image produced in that notebook is below:
   
