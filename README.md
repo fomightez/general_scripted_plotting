@@ -34,7 +34,14 @@ Two ways to use this script:
 
       fig, axes = plt_panel_bar.plot_data(
           data,
-          #settings for options,
+          #plus ettings for options, examples:
+          labels=my_data_labels,
+          colors=my_label_and_bar_colors, 
+          bar_alphas=my_bar_alphas,
+          label_alphas=my_label_alphas,
+          shared_x_label=shared_x_label,
+          shared_y_label=shared_y_label
+          # Several other options are available for fully customizing output.
           )
 
       ### END OF PLOT MAKING #####
