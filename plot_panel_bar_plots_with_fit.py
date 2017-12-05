@@ -978,6 +978,7 @@ if __name__ == "__main__":
     # plt.savefig(output_file_name[:-4]+"LARGE.png", dpi = (1600))  # IF NEED LARGE. Based on http://scipy-cookbook.readthedocs.io/items/Matplotlib_AdjustingImageSize.html
     # plt.savefig(output_file_name[:-4]+".pdf", orientation='landscape') # UNFORTUNATELY DOES NOT PRODUCE VECTOR GRAPHICS, unlike ReportLab's pdf output; USE SVG for that and the make PDF later.
     plt.savefig(output_file_name[:-4]+".svg", orientation='landscape') # FOR VECTOR GRAPHICS; useful if merging into Adobe Illustrator. Based on https://neuroscience.telenczuk.pl/?p=331 ; I think ReportLab also outputs SVG?
+    sys.stderr.write("\nPlot image saved to: {}\n".format(output_file_name[:-4]+".svg"))
     
 
     #plt.show() # <=== Use that when placed in a Jupyter notebook
