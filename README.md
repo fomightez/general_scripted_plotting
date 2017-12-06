@@ -83,10 +83,10 @@ The resulting images produced are below in the two color options, respectively, 
 
 I wanted to make plots where the x-axis was -70 through -1 and this script didn't seem to work and just output a tiny square as the plot. No clear error was reported although there was a warning:
 
-  UserWarning: Attempting to set identical left==right results
-  in singular transformations; automatically expanding.
-  left=0, right=0
-    'left=%s, right=%s') % (left, right))
+    UserWarning: Attempting to set identical left==right results
+    in singular transformations; automatically expanding.
+    left=0, right=0
+      'left=%s, right=%s') % (left, right))
 
 Turns out the warning and the "tiny square" plot are because the script tries to be smart and set the `x_lower_val` to zero for sets less than 100 in size, but if using negative numbers for x-axis that causes a problem and the easy solution is just to supply `x_lower_val` in your `plot_data()` function call.
 
