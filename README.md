@@ -38,13 +38,13 @@ Two ways to use this script:
 
 - (**Recommended way ==>**) **Import the function into your own script with your data or your Jupyter notebook with your data.**
 
-  To do this, place the script `plot_panel_bar_plots_with_fit.py` into a directory with your code or place the script in your Jupyter environment dashboard where the notebook is locaed.
+  To do this, place the script `plot_panel_bar_plots_with_fit.py` into a directory with your code or place the script in your Jupyter environment on the same level where the notebook is located.
 
   Minimal code outline needed for that approach:
 
       import matplotlib
       from matplotlib import pyplot as plt
-      import plot_panel_bar_plots_with_fit as plt_panel_bar
+      import plot_panel_bar_plots_with_fit as plt_panel_bar #<--IMPORTS IF `plot_panel_bar_plots_with_fit.py` PLACED IN SAME DIRECTORY
      
       # assign your data
       
