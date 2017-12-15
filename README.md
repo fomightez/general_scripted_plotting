@@ -22,7 +22,7 @@ Two ways to use this script:
 
   Edit the script directly via text editor. Assign your data and asign items like `labels`, `colors`, etc.
   
-  Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`; `svg` vector graphics format is more easily sized and adapted.
+  Adjust the output image to be in the format you'd like. You may find `.png` best while developing because more easily directly viewed than `svg`; `svg` vector graphics format is more easily sized while maintaining quality and thus better suited for adapting for publication.
   
   Execute the edited script with:
   
