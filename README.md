@@ -88,7 +88,7 @@ I wanted to make plots where the x-axis was -70 through -1 and this script didn'
     left=0, right=0
       'left=%s, right=%s') % (left, right))
 
-Turns out the warning and the "tiny square" plot are because the script tries to be smart and set the `x_lower_val` to zero for sets less than 100 in size, but if using negative numbers for x-axis that causes a problem and the easy solution is just to supply `x_lower_val` in your `plot_data()` function call.
+Turns out the warning and the "tiny square" plot are because the script tries to be smart (in a less than optimal way, for now) and set the `x_lower_val` to zero for sets less than 100 in size, but if using strictly negative numbers for x-axis that causes a problem and the easy solution is just to supply `x_lower_val` in your `plot_data()` function call which overrides the script trying to set the values itself.
 
 ## Plotting scripts for specific purposes
 
