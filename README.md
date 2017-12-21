@@ -1,17 +1,16 @@
 # general_scripted_plotting
 
-Scripts that plot generalized data.
+Scripts that plot 'generalized' data.
 
-**NOTE:** This repository is just for scripts that have a very broad ability to make plots from generalized data. I have made many other scripts that plot data that aren't here because they are more nuanced. A few of them are referenced below under the section `Plotting scripts for specific purposes`.
+**NOTE:** This repository is just for scripts that have a very broad ability to make plots from 'generalized' data. I have many other scripts/Jupyter notebooks that are more nuanced, and hence not in this repo. A few of them are referenced below under [the section `Plotting scripts for specific purposes`](https://github.com/fomightez/general_scripted_plotting#plotting-scripts-for-specific-purposes).
 
 Descriptions of the scripts are below:
 
 ## plot_panel_bar_plots_with_fit.py
-> plots a ratio of expression values across chromosomes or scaffolds of a genome to highlight regions of deviation characteristic of aneuploidy or segmental duplication/deletion.
+> A Python script to plot panels of bar graphs with optional curves fit to the data.  It uses lists of lists of x & y data. Each set of x & y values is plotted to a subplot stacked upon each other subplot in the panel.
 
-A Python script to plot panels of bar graphs with curves fit to the data.  It uses lists of lists of x & y data. Each set of x & y values is plotted to a subplot.
-This script is my 'hacky' casting of the histogram-generating (actually kernel density estimate curve plot-generating) code of [joypy](https://github.com/sbebo/joypy) as a less automated, fully-customizable plotter of panels of bar graphs with curves fit to the data. (Also reminscent of ridgleine plots done in R by ggridges, see [here for an example](https://twitter.com/ClausWilke/status/932764406693482497). Vaguely also reminiscent of [Seaborn's example of Overlapping densities (‘joy plot’)](https://seaborn.pydata.org/examples/kde_joyplot.html), and [horizontal violin plots that feature 'stacks'](https://seaborn.pydata.org/generated/seaborn.violinplot.html), but where one-sided and set up so can compare more than one.)   
-Originally written to be part of a mini-pipeline, [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines), where I plot read starts at the start of origin promoters mined by [`plot_coverage_and_starts.py`]()  Thus, it was written in a manner to make the core function easily imported elsewhere so that the "data" hard coded in the example can be replaced by real data.
+This script is my 'hacky' recasting of the histogram-generating (actually kernel density estimate curve plot-generating) code of [joypy](https://github.com/sbebo/joypy) as a less automated, fully-customizable plotter of panels of bar graphs with curves fit to the data. (Also reminscent of ridgleine plots done in R by ggridges, see [here for an example](https://twitter.com/ClausWilke/status/932764406693482497). Vaguely also reminiscent of [Seaborn's example of Overlapping densities (‘joy plot’)](https://seaborn.pydata.org/examples/kde_joyplot.html), and [horizontal violin plots that feature 'stacks'](https://seaborn.pydata.org/generated/seaborn.violinplot.html), but where one-sided and set up so can compare more than one.)   
+Originally written to be part of a mini-pipeline, [`shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`](https://github.com/fomightez/mini-pipelines), where I plot read starts at the start of origin promoters mined by [`plot_coverage_and_starts.py`](https://github.com/fomightez/sequencework/tree/master/plot_read_data)  Thus, it was written in a manner to make the core function easily imported elsewhere so that the "data" hard coded in the example can be replaced by real data.
 Stylistically, it seems others have called this a 'panel of bar charts', see [here](http://support.sas.com/documentation/cdl/en/grstatproc/62603/HTML/default/viewer.htm#a003241944.htm) and so my description/name is an effort to acknowledge that.
 
 **EXAMPLE OUTPUT THAT CAN BE MADE USING THIS SCRIPT:**
@@ -88,7 +87,7 @@ I wanted to make plots where the x-axis was -70 through -1 and this script didn'
     left=0, right=0
       'left=%s, right=%s') % (left, right))
 
-Turns out the warning and the "tiny square" plot are because the script tries to be smart (in a less than optimal way, for now) and set the `x_lower_val` to zero for sets less than 100 in size, but if using strictly negative numbers for x-axis that causes a problem and the easy solution is just to supply `x_lower_val` in your `plot_data()` function call which overrides the script trying to set the values itself.
+Turns out the warning and the "tiny square" plot are because the script tries to be smart (in a less than optimal way, for now) and set the `x_lower_val` to zero for sets less than 100 in size. However, if using strictly negative numbers for x-axis that causes a problem presently because the original implementation of handling that didn't take into account the entire range of x-axis values being negative values. The easy solution is just to supply `x_lower_val` in your `plot_data()` function call which overrides the script trying to set the values itself.
 
 ## Plotting scripts for specific purposes
 
