@@ -17,7 +17,7 @@ __license__ = "MIT"
 # density estimate curve plot-generating) code of 
 # [joypy](https://github.com/sbebo/joypy) as a less automated, 
 # fully-customizable plotter of panels of bar graphs with curves fit to the data. 
-# Later I rezlized it is also vaguel similar to a horizontal violin plot that
+# Later I rezlized it is also vaguely similar to a horizontal violin plot that
 # featured 'stacks' but where one-sided and set up so can compare more than one.
 # Originally written to be part of a mini-pipeline, 
 # `shepherds_read_starts_at_start_of_origins_thru_to_plotting.py`, where I plot 
