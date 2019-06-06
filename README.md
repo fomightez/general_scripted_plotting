@@ -89,7 +89,7 @@ I wanted to make plots where the x-axis was -70 through -1 and this script didn'
 
 Turns out the warning and the "tiny square" plot are because the script tries to be smart (in a less than optimal way, for now) and set the `x_lower_val` to zero for sets less than 100 in size. However, if using strictly negative numbers for x-axis that causes a problem presently because the original implementation of handling that didn't take into account the entire range of x-axis values being negative values. The easy solution is just to supply `x_lower_val` in your `plot_data()` function call which overrides the script trying to set the values itself.
 
-## donut plots with subgroups
+## donut plots with subgroups from dataframes
 This belongs under this topic but because I want to binderize everything, I put it as a separate repo [here](https://github.com/fomightez/donut_plots_with_subgroups).
 
 ## Plotting scripts for specific purposes
@@ -102,7 +102,7 @@ Below are links to a few of these to aid in organization:
 - [plot_read_data](https://github.com/fomightez/sequencework/tree/master/plot_read_data)
 - [scripts to make Venn diagrams for overlapping words or gene data](https://github.com/fomightez/text_mining)
 - [Jupyter notebook that plots optical density vs. yeast cell density in addition to making related calculations](https://github.com/fomightez/methods_in_yeast_genetics/tree/master/cell_density_estimator)
-- [Several generalized scripts for making donut plots that include subgroups](https://github.com/fomightez/donut_plots_with_subgroups)
+- [Several generalized scripts for making donut plots that include subgroups from Pandas dataframes](https://github.com/fomightez/donut_plots_with_subgroups)
 - [preliminary Peter de Jong attractor plotting in a Jupyter notebook](https://github.com/fomightez/de_jong-jupyter)
 
 RELATED:
