@@ -90,7 +90,14 @@ I wanted to make plots where the x-axis was -70 through -1 and this script didn'
 Turns out the warning and the "tiny square" plot are because the script tries to be smart (in a less than optimal way, for now) and set the `x_lower_val` to zero for sets less than 100 in size. However, if using strictly negative numbers for x-axis that causes a problem presently because the original implementation of handling that didn't take into account the entire range of x-axis values being negative values. The easy solution is just to supply `x_lower_val` in your `plot_data()` function call which overrides the script trying to set the values itself.
 
 ## donut plots with subgroups from dataframes
-This belongs under this topic but because I want to binderize everything, I put it as a separate repo [here](https://github.com/fomightez/donut_plots_with_subgroups).
+This belongs under this topic but because I want to binderize everything, I put it as a separate repo [here](https://github.com/fomightez/donut_plots_with_subgroups). Typical output:  
+
+![typical 1](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/donut_plot_with_subgroups_from_dataframe1.png)
+
+![typical 2](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb3_example.png)
+
+![typical 3](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb4_example.png)
+
 
 ## Plotting scripts for specific purposes
 
