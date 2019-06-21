@@ -92,11 +92,17 @@ Turns out the warning and the "tiny square" plot are because the script tries to
 ## donut plots with subgroups from dataframes
 This belongs under this topic but because I want to binderize everything, I put it as a separate repo [here](https://github.com/fomightez/donut_plots_with_subgroups). Typical output:  
 
-![typical 1](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/donut_plot_with_subgroups_from_dataframe1.png)
+![typical 1](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb4_example.png)
 
-![typical 2](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb3_example.png)
+----
 
-![typical 3](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb4_example.png)
+![typical 2](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/donut_plot_with_subgroups_from_dataframe1.png)
+
+----
+
+![typical 3](https://github.com/fomightez/donut_plots_with_subgroups/raw/master/imgs/nb3_example.png)
+
+
 
 
 ## Plotting scripts for specific purposes
