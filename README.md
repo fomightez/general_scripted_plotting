@@ -130,3 +130,13 @@ I have a [VPython-jupyter repo where I added the plotting package `Seaborn`](htt
 ### Licensing
 
 The scripts in this repository are licensed under MIT.
+
+## Related repositories of mine
+
+- [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
+
+## General Python-based plotting scripts by others
+
+Came across these and noted here since may be useful later and not in the usual packages I am familiary with:
+
+- [pywaffle]( https://github.com/gyli/PyWaffle). Rectangular-like pie chat-like plot. See [here](https://stackoverflow.com/questions/41400136/how-to-do-waffle-charts-in-python-square-piechart) for impetus. (Reminiscent of heatmaps but don't have to be full box or rectangle.)
