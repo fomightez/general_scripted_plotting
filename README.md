@@ -134,6 +134,7 @@ The scripts in this repository are licensed under MIT.
 ## Related repositories of mine
 
 - [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
+- [modernized version of my '3Dscatter_plot-binder' repo](https://github.com/fomightez/3Dscatter_plot_mod_playground-binder) offers 3D scatterplots in Matplotlib and Plotly and versions with ipywidgets to interact with them both in examples of notebooks and Voila apps.
 
 ## General Python-based plotting scripts by others
 
