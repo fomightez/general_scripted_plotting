@@ -136,7 +136,7 @@ The scripts in this repository are licensed under MIT.
 
 ## Related repositories of mine
 
-- [Use Pylustrator without installing anything to see how you can easily be provided the code to correspond to direct changes you make to Matplotlib plots](https://gist.github.com/fomightez/2342446eab163f8d71b93f8d5f0924c3)
+- [Use Pylustrator without installing anything to see how you hand edit Matplotli results in a GUI to then get the Python code that implements those changes](https://gist.github.com/fomightez/2342446eab163f8d71b93f8d5f0924c3)
 - - [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
 - [modernized version of my '3Dscatter_plot-binder' repo](https://github.com/fomightez/3Dscatter_plot_mod_playground-binder) offers 3D scatterplots in Matplotlib and Plotly and versions with ipywidgets to interact with them both in examples of notebooks and Voila apps.
 - [logan_results_analysis-binder](https://github.com/fomightez/logan_results_analysis-binder) has several examples of making barplots with nice features.
