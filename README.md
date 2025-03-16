@@ -123,6 +123,9 @@ Below are links to a few of these to aid in organization:
 - [Jupyter notebook that plots optical density vs. yeast cell density in addition to making related calculations](https://github.com/fomightez/methods_in_yeast_genetics/tree/master/cell_density_estimator)
 - [Several generalized scripts for making donut plots that include subgroups from Pandas dataframes](https://github.com/fomightez/donut_plots_with_subgroups)
 - [preliminary Peter de Jong attractor plotting in a Jupyter notebook](https://github.com/fomightez/de_jong-jupyter)
+- - [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
+- [modernized version of my '3Dscatter_plot-binder' repo](https://github.com/fomightez/3Dscatter_plot_mod_playground-binder) offers 3D scatterplots in Matplotlib and Plotly and versions with ipywidgets to interact with them both in examples of notebooks and Voila apps.
+- [logan_results_analysis-binder](https://github.com/fomightez/logan_results_analysis-binder) has several examples of making barplots with nice features.
 
 RELATED:
 I have a [VPython-jupyter repo where I added the plotting package `Seaborn`](https://github.com/fomightez/vpython-jupyter).
@@ -133,8 +136,10 @@ The scripts in this repository are licensed under MIT.
 
 ## Related repositories of mine
 
-- [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
+- [Use Pylustrator without installing anything to see how you can easily be provided the code to correspond to direct changes you make to Matplotlib plots](https://gist.github.com/fomightez/2342446eab163f8d71b93f8d5f0924c3)
+- - [Demonstrating animated plots with Matplotlib in notebooks served via Binder system](https://github.com/fomightez/animated_matplotlib-binder)
 - [modernized version of my '3Dscatter_plot-binder' repo](https://github.com/fomightez/3Dscatter_plot_mod_playground-binder) offers 3D scatterplots in Matplotlib and Plotly and versions with ipywidgets to interact with them both in examples of notebooks and Voila apps.
+- [logan_results_analysis-binder](https://github.com/fomightez/logan_results_analysis-binder) has several examples of making barplots with nice features.
 
 ## General Python-based plotting scripts by others
 
